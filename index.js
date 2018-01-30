@@ -14,6 +14,14 @@ function divide(x, y) {
   return x / y
 }
 
+function inc(x, n) {
+  return x += n
+}
+
+function dec(x, n) {
+  return x -= n
+}
+
 function makeInt(strNum) {
   return parseInt(strNum)
 }
