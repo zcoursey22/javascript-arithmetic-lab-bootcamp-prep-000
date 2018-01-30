@@ -14,12 +14,12 @@ function divide(x, y) {
   return x / y
 }
 
-function inc(x, n) {
-  return x += n
+function inc(n) {
+  return n++
 }
 
-function dec(x, n) {
-  return x -= n
+function dec(n) {
+  return n--
 }
 
 function makeInt(strNum) {
